@@ -21,6 +21,11 @@ CREATE TABLE employees (
 
 INSERT INTO employees (employee_id, salary, employee_name) VALUES (101, 50000, 'John Doe');
 INSERT INTO employees (employee_id, salary, employee_name) VALUES (102, 60000, 'Jane Smith');
+INSERT INTO employees (employee_id, salary, employee_name) VALUES (103, 75000, 'Mike Johnson');
+INSERT INTO employees (employee_id, salary, employee_name) VALUES (104, 45000, 'Sarah Wilson');
+
+
+DBMS_OUTPUT.PUT_LINE('✓ Employees table created with sample data');
 COMMIT;
 
 
