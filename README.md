@@ -27,7 +27,7 @@ This assignment consisted of **four comprehensive scenarios** testing advanced P
 **Business Problem:** Implement a security system that restricts database access to business hours only (Monday-Friday, 8AM-5PM) and blocks Sabbath access (Saturday-Sunday).
 
 ### Scenario 2: HR Employee Management System  
-**Business Problem:** Create a payroll system package that calculates RSSB tax deductions, computes net salaries, and handles salary updates using dynamic SQL with proper security contexts.
+**Business Problem:** Create a payroll system package that calculates RSSB tax deductions, computes net salaries, and handles salary updates using dynamic SQL with proper security contexts
 
 ### Scenario 3: Suspicious Login Monitoring
 **Business Problem:** Build a security monitoring system that detects and alerts on suspicious login patterns (3+ failed attempts per user per day) for fraud prevention.
