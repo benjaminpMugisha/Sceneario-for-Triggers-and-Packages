@@ -1,6 +1,7 @@
 -- =============================================
 -- PART 2: HR EMPLOYEE MANAGEMENT PACKAGE
 -- =============================================
+
 CREATE OR REPLACE PACKAGE hr_management 
 AUTHID CURRENT_USER
 IS
