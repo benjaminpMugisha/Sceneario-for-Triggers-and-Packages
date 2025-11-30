@@ -50,7 +50,7 @@ BEGIN
     v_day := TO_CHAR(SYSDATE, 'DY');
     v_time := TO_NUMBER(TO_CHAR(SYSDATE, 'HH24.MI'));
 
-    -- Check Sabbath and business hours
+    -- Check Sabbath and business  hours
     IF v_day IN ('SAT', 'SUN') OR (v_time < 8.00 OR v_time >= 17.00) THEN
         INSERT INTO system_access_audit (attempted_action, rejection_reason)
         VALUES (ORA_DICT_OBJ_NAME || ' Operation', 'Access violation');
