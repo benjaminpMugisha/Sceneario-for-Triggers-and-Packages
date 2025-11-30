@@ -178,12 +178,13 @@ END;
 
 ## 📈 Results Summary
 
-| Scenario | Status | Key Achievements |
-|----------|--------|------------------|
-| 1. Access Policy | ✅ Complete | Business hours enforcement, Sabbath blocking, Audit logging |
-| 2. HR Management | ✅ Complete | Tax calculations, Dynamic SQL, Security contexts |
-| 3. Security Monitoring | ✅ Complete | Real-time alerts, Compound triggers, Fraud detection |
-| 4. Hospital System | ✅ Complete | Bulk processing, Collections, Patient management |
+| Scenario | Status | Key Achievements | Link |
+|----------|--------|------------------|--------|
+| 1. Access Policy | ✅ Complete | Business hours enforcement, Sabbath blocking, Audit logging | [![Static Badge](https://img.shields.io/badge/view-sql-blue?logo=github)](scripts/01_AUCA_System_Access_Policy(Triggers).sql) |
+| 2. HR Management | ✅ Complete | Tax calculations, Dynamic SQL, Security contexts | [![Static Badge](https://img.shields.io/badge/view-sql-blue?logo=github)](scripts/02_HR_Employee_Management_System_Package.sql)  |
+| 3. Security Monitoring | ✅ Complete | Real-time alerts, Compound triggers, Fraud detection | [![Static Badge](https://img.shields.io/badge/view-sql-blue?logo=github)](scripts/03_Suspicious_Login_Monitoring(Triggers).sql) |
+| 4. Hospital System | ✅ Complete | Bulk processing, Collections, Patient management |  [![Static Badge](https://img.shields.io/badge/view-sql-blue?logo=github)](scripts/04_Hospital_Management_Package(Bulk_Processing).sql) |
+| 5. Final Verification For All Systems | ✅ Complete | Return all system outputs |  [![Static Badge](https://img.shields.io/badge/view-sql-blue?logo=github)](scripts/Final_Verification_For_All_Systems.sql) |
 
 ## 🎓 Learning Outcomes
 
